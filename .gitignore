@@ -1,0 +1,31 @@
+# Root level gitignore
+
+# Node modules (frontend)
+**/node_modules/
+
+# Python cache (backend)
+**/__pycache__/
+**/*.pyc
+
+# Build directories
+**/build/
+**/dist/
+
+# Environment files
+**/.env
+**/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+ 
